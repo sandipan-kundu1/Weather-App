@@ -1,0 +1,84 @@
+body{
+    background-image: linear-gradient(to right, rgb(57, 204, 77), rgb(40, 198, 222));
+    font-family: 'Lato', sans-serif;
+}
+.maindiv{
+    display: flex;
+    justify-content: center;
+    /* align-self: center; */
+}
+.div{
+    background-color: whitesmoke;
+    color: black;
+    display: grid;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    border-radius: 0.5cm;
+    width: 480px;
+    height: 480px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    transition-duration: 0.7s;
+    transition-property: all;
+}
+.div:hover{
+    margin: 65px 490px; 
+    /* margin-top: 85px; */
+    padding: 10px;
+    font-size: 1.1em;
+}
+#head{
+    font-size: 2.5em;
+}
+#time{
+    color: red;
+}
+#city{
+    font-weight: bold;
+}
+#temp{
+    float: right;
+    font-weight: bold;
+    font-size: larger;
+}
+#tempicon{
+    float: left;
+}
+#windicon{
+    float: left;
+    height: 50px;
+}
+#winddiv{
+    float: right;
+}
+#tempdiv{
+    float: left;
+}
+#wind{
+    float: right;
+    font-size: 1.2em;
+    color: rgb(81, 81, 245);
+    /* width: 50px; */
+}
+#input-btn{
+    /* font-size: 1.8em; */
+    border: 1px solid #acb0ad;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+}
+#getbtn{
+    font-size: 1.2em;
+    background-color: rgb(23, 166, 213);
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    transition-duration: 0s;
+    color: white;
+}
+#getbtn:hover{
+    background-color: #3658bf;
+    
+}
