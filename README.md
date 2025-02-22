@@ -1,7 +1,7 @@
 # Weather App ☀️🌧️
 
 ## Overview
-The **Weather App** is a sleek and user-friendly web application that provides real-time weather updates for any location worldwide. Built with **React.js**, it fetches accurate weather data using an external API and presents it in a clean, responsive UI.
+The **Weather App** is a sleek and user-friendly web application that provides real-time weather updates for any location worldwide. It fetches accurate weather data using an external API and presents it in a clean, responsive UI.
 
 🔹 Get **current temperature, humidity, wind speed, and weather conditions** in an instant!
 🔹 Perfect for travelers, commuters, and weather enthusiasts.
